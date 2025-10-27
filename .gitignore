@@ -1,0 +1,42 @@
+# Arquivos de build
+/build/
+/dist/
+/papa-mosca-*.tar.gz
+
+# Arquivos do Nim
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cache do Nim
+/nimcache/
+/.nimble/
+/private/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+.*.sw?
+
+# Logs
+*.log
+
+# Diretórios de sistema
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# IDE/Editor
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de usuário (não versionar configurações pessoais)
+/.local/
